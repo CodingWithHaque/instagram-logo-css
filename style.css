@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+.container{
+    width:90%;
+    height: 100vh;
+    background-color:beige;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-main{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        circle at 20% 100%,
+        #fed373 6%,
+        #f15245 30%,
+        #d92e7f 70%,
+        #9b36b7 85%,
+        #515ecf
+    );
+}
+
+.logo-inner1{
+    width: 230px;
+    height: 230px;
+    border: 20px solid white;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-inner2{
+    width: 120px;
+    height: 120px;
+    border: 20px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+.logo-inner3{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 90px;
+}
